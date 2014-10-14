@@ -1,0 +1,205 @@
+Delivered-To: bruno@dokdok.com
+Received: by 10.42.218.74 with SMTP id hp10cs194007icb;
+        Thu, 13 Oct 2011 15:02:20 -0700 (PDT)
+Received: by 10.150.74.7 with SMTP id w7mr6419120yba.70.1318542894371;
+        Thu, 13 Oct 2011 14:54:54 -0700 (PDT)
+Return-Path: <blahblahblah@gmail.com>
+Received: from mail-gx0-f174.google.com (mail-gx0-f174.google.com [209.85.161.174])
+        by mx.google.com with ESMTPS id u41si888834ybu.20.2011.10.13.14.54.54
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 13 Oct 2011 14:54:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of blahblahblah@gmail.com designates 209.85.161.174 as permitted sender) client-ip=209.85.161.174;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of blahblahblah@gmail.com designates 209.85.161.174 as permitted sender) smtp.mail=blahblahblah@gmail.com; dkim=pass (test mode) header.i=@gmail.com
+Received: by ggnv2 with SMTP id v2so684001ggn.33
+        for <bruno@dokdok.com>; Thu, 13 Oct 2011 14:54:54 -0700 (PDT)
+Received: by 10.42.152.201 with SMTP id j9mr10672677icw.55.1318542893924;
+        Thu, 13 Oct 2011 14:54:53 -0700 (PDT)
+Return-Path: <blahblahblah@gmail.com>
+Received: from [192.168.1.5] (71-211-196-225.hlrn.qwest.net. [71.211.196.225])
+        by mx.google.com with ESMTPS id jm11sm2672982ibb.1.2011.10.13.14.54.52
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 13 Oct 2011 14:54:53 -0700 (PDT)
+Message-ID: <4E975E2A.3050905@gmail.com>
+Date: Thu, 13 Oct 2011 15:54:50 -0600
+From: Ken Kinder <blahblahblah@gmail.com>
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.21) Gecko/20110831 Thunderbird/3.1.13
+MIME-Version: 1.0
+To: Bruno Morency <bruno@dokdok.com>
+Subject: Re: Token for v2
+References: <AAA68C76-E6B7-4C66-910E-A5C77587CCC6@dokdok.com> <4E95C063.2000605@gmail.com> <4E96584F.3090607@dokdok.com> <CACC5PiomXtr7Nfa9eU_ZrmqzMc2soTHVQZtyEegKpXZWRMoLyA@mail.gmail.com> <4E97577F.2070608@dokdok.com> <4E9759A1.9010708@gmail.com> <4E975B9A.3080408@dokdok.com>
+In-Reply-To: <4E975B9A.3080408@dokdok.com>
+X-Enigmail-Version: 1.1.2
+Content-Type: multipart/alternative;
+ boundary="------------030009050309030308020807"
+
+This is a multi-part message in MIME format.
+--------------030009050309030308020807
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Nope, SSL started working again. Thanks for your help and speedy API
+updates!
+
+On 10/13/2011 03:43 PM, Bruno Morency wrote:
+> It may possibly be pushed with the exception of the "move" parameter
+> for the on the instance POST (it only copies for now). I'll check with
+> Dominik if the rest was part of the code push earlier this afternoon.
+>
+> If you're still getting the invalid certificate, let me know, I just
+> made a couple tests and it shouldn't be happening.
+>
+> Bruno
+>
+> Founder, Context.IO, the missing email API - http://context.io
+> talk: 514-806-6730, meet: http://tungle.me/BrunoMorency, follow:
+> http://twitter.com/ContextIO, http://twitter.com/brunomorency
+>
+>
+> Ken Kinder wrote:
+>> Wow, Bruno, that looks perfect and will definitely save us some
+>> bandwidth. Coincidentally, might you be rolling this out now? Your
+>> API is giving an "invalid certificate" error as of just a couple
+>> minutes ago, which is why I jumped over to my email. :)
+>>
+>> Thanks for the improvement. The way it looks seems ideal.
+>>
+>> On 10/13/2011 03:26 PM, Bruno Morency wrote:
+>>> Hi Ken,
+>>>
+>>> Reviewing that call to improve the docs made us realize there was
+>>> room for improvement on it. As it is currently implemented, you can
+>>> POST on /2.0/accounts/id/messages with the following parameters ...
+>>> label: label of the source that message will go in,
+>>> dst_folder: a folder on that source
+>>> data: the RFC-822 message source
+>>>
+>>> We made a couple improvements to it to make it easier to move/copy
+>>> messages around without having to download and upload the message
+>>> source (see the 2 screenshots attached). Those changes should be
+>>> live by end of day tomorrow (along with updated docs).
+>>>
+>>> Hope this helps!
+>>>
+>>>
+>>> Bruno
+>>>
+>>> Founder, Context.IO, the missing email API - http://context.io
+>>> talk: 514-806-6730, meet: http://tungle.me/BrunoMorency, follow:
+>>> http://twitter.com/ContextIO, http://twitter.com/brunomorency
+>>>
+>>>
+>>> Ken Kinder wrote:
+>>>>
+>>>> Thanks Bruno. Alternatively I could get by with just a quick
+>>>> explanation of what's sent over http. No need for coding on your part.
+>>>>
+>>>> Ken
+>>>>
+
+--------------030009050309030308020807
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#ffffff" text="#000000">
+    Nope, SSL started working again. Thanks for your help and speedy API
+    updates!<br>
+    <br>
+    On 10/13/2011 03:43 PM, Bruno Morency wrote:
+    <blockquote cite="mid:4E975B9A.3080408@dokdok.com" type="cite">
+      <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+      It may possibly be pushed with the exception of the "move"
+      parameter for the on the instance POST (it only copies for now).
+      I'll check with Dominik if the rest was part of the code push
+      earlier this afternoon.<br>
+      <br>
+      If you're still getting the invalid certificate, let me know, I
+      just made a couple tests and it shouldn't be happening.<br>
+      <br>
+      Bruno<br>
+      <div class="moz-signature"><br>
+        <small>Founder, Context.IO, the missing email API - <a
+            moz-do-not-send="true" class="moz-txt-link-freetext"
+            href="http://context.io">http://context.io</a></small><br>
+        <small>talk: 514-806-6730, meet: <a moz-do-not-send="true"
+            class="moz-txt-link-freetext"
+            href="http://tungle.me/BrunoMorency">http://tungle.me/BrunoMorency</a>,
+          follow: </small><small><a moz-do-not-send="true"
+            class="moz-txt-link-freetext"
+            href="http://twitter.com/ContextIO">http://twitter.com/ContextIO</a></small><span><small>,
+            <a moz-do-not-send="true" class="moz-txt-link-freetext"
+              href="http://twitter.com/brunomorency">http://twitter.com/brunomorency</a></small></span><br>
+      </div>
+      <br>
+      <br>
+      Ken Kinder wrote:
+      <blockquote cite="mid:4E9759A1.9010708@gmail.com" type="cite">
+        <meta content="text/html; charset=UTF-8"
+          http-equiv="Content-Type">
+        Wow, Bruno, that looks perfect and will definitely save us some
+        bandwidth. Coincidentally, might you be rolling this out now?
+        Your API is giving an "invalid certificate" error as of just a
+        couple minutes ago, which is why I jumped over to my email. :)<br>
+        <br>
+        Thanks for the improvement. The way it looks seems ideal.<br>
+        <br>
+        On 10/13/2011 03:26 PM, Bruno Morency wrote:
+        <blockquote cite="mid:4E97577F.2070608@dokdok.com" type="cite">
+          <meta content="text/html; charset=UTF-8"
+            http-equiv="Content-Type">
+          Hi Ken,<br>
+          <br>
+          Reviewing that call to improve the docs made us realize there
+          was room for improvement on it. As it is currently
+          implemented, you can POST on /2.0/accounts/id/messages with
+          the following parameters ... <br>
+          label: label of the source that message will go in, <br>
+          dst_folder: a folder on that source<br>
+          data: the RFC-822 message source<br>
+          <br>
+          We made a couple improvements to it to make it easier to
+          move/copy messages around without having to download and
+          upload the message source (see the 2 screenshots attached).
+          Those changes should be live by end of day tomorrow (along
+          with updated docs).<br>
+          <br>
+          Hope this helps!<br>
+          <br>
+          <br>
+          Bruno<br>
+          <div class="moz-signature"><br>
+            <small>Founder, Context.IO, the missing email API - <a
+                moz-do-not-send="true" class="moz-txt-link-freetext"
+                href="http://context.io">http://context.io</a></small><br>
+            <small>talk: 514-806-6730, meet: <a moz-do-not-send="true"
+                class="moz-txt-link-freetext"
+                href="http://tungle.me/BrunoMorency">http://tungle.me/BrunoMorency</a>,
+              follow: </small><small><a moz-do-not-send="true"
+                class="moz-txt-link-freetext"
+                href="http://twitter.com/ContextIO">http://twitter.com/ContextIO</a></small><span><small>,
+                <a moz-do-not-send="true" class="moz-txt-link-freetext"
+                  href="http://twitter.com/brunomorency">http://twitter.com/brunomorency</a></small></span><br>
+          </div>
+          <br>
+          <br>
+          Ken Kinder wrote:
+          <blockquote
+cite="mid:CACC5PiomXtr7Nfa9eU_ZrmqzMc2soTHVQZtyEegKpXZWRMoLyA@mail.gmail.com"
+            type="cite">
+            <p>Thanks Bruno. Alternatively I could get by with just a
+              quick explanation of what's sent over http. No need for
+              coding on your part. </p>
+            <p>Ken</p>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </body>
+
+</html>
+
+--------------030009050309030308020807--
